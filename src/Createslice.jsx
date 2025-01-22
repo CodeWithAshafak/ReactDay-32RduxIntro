@@ -7,5 +7,8 @@ const counter = createSlice({
     dec : (state)=>{state.value = state.value-1}
   }
 })
+
+
+
 export const {inc,dec} = counter.actions;
 export default counter.reducer;
